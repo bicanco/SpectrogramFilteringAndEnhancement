@@ -1,0 +1,4 @@
+Selection	View	Channel	Begin.Time..s.	End.Time..s.	Low.Freq..Hz.	High.Freq..Hz.	species
+1	Spectrogram 1	1	0.480295385	1.246920711	2332.4	4441.1	vire_chiv
+2	Spectrogram 1	1	23.554572917	30.17710736	2811.6	9010	myio_leuc
+3	Spectrogram 1	1	50.385647387	53.396729992	447.3	1405.8	aram_caja

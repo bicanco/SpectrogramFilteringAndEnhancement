@@ -1,0 +1,5 @@
+Selection	View	Channel	Begin.Time..s.	End.Time..s.	Low.Freq..Hz.	High.Freq..Hz.	species
+1	Spectrogram 1	1	44.293304508	44.724467016	2080.2	4826	vire_chiv
+2	Spectrogram 1	1	15.387981702	15.916155775	2839	4835.9	tolm_sulp
+3	Spectrogram 1	1	49.232409814	52.665759622	2706.3	7972.4	mela_cand
+4	Spectrogram 1	1	28.125632727	29.512827324	4835.9	8081	xeno_ruti

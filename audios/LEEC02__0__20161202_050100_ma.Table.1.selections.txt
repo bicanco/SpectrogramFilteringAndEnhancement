@@ -1,0 +1,9 @@
+Selection	View	Channel	Begin.Time..s.	End.Time..s.	Low.Freq..Hz.	High.Freq..Hz.	species
+10	Spectrogram 1	1	58.836664462	58.980368788	1868.1	2970.6	tach_coro
+4	Spectrogram 1	1	46.30109443	47.162396616	1316.9	3460.6	cycl_guja
+9	Spectrogram 1	1	24.449057982	26.070863938	2266.2	4471.2	vire_chiv
+3	Spectrogram 1	1	27.20108582	27.53012261	3583.1	5390	tolm_sulp
+1	Spectrogram 1	1	31.580403432	36.003044995	3552.5	6829.4	myio_leuc
+6	Spectrogram 1	1	53.501506673	54.217645569	4011.9	7595	basi_culi
+5	Spectrogram 1	1	51.18825852	51.62374839	1837.5	8942.5	psit_leuc
+2	Spectrogram 1	1	13.655621112	14.01369056	3307.5	10106.2	myio_macu
