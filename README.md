@@ -10,11 +10,11 @@ The objective of this project is to remove noise and enhance the spectrograms ge
 
 ### Image Examples
 
-![Example 1](images\LEEC02__0__20161129_054600_ma.png)
-![Example 2](images\LEEC02__0__20161129_072900_ma.png)
-![Example 3](images\LEEC02__0__20161129_080100_ma.png)
-![Example 4](images\LEEC02__0__20161130_063000_ma.png)
-![Example 5](images\LEEC02__0__20161202_050100_ma.png)
+![Example 1](images/LEEC02__0__20161129_054600_ma.png)
+![Example 2](images/LEEC02__0__20161129_072900_ma.png)
+![Example 3](images/LEEC02__0__20161129_080100_ma.png)
+![Example 4](images/LEEC02__0__20161130_063100_ma.png)
+![Example 5](images/LEEC02__0__20161202_050100_ma.png)
 
 
 ### Main objective
