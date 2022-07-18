@@ -28,10 +28,16 @@ The input images are grayscale images generated with the **generateImage.py** sc
 
 ### Steps
 
-* The first step is to try different image filtering techniques to remove noise. Such as constant sounds present recording, represented by linear segments throughout the entire time axis.
-* The second step is to apply image enhancment techniques to try highlighting events of interest. Some possbile techniques are logarithmic enhancement and histogram equalization.
-* The final step is to evaluate if the images have been improved and if relevant data has been lost. Inittialy, the evalutaion will be made visually, by verifing if the already known points of interest, provided alongside the recordings, are easily identified. Ideally, the spectrograms will be reverted back to audio format, heard and compared with the original audios. However, this does not concern image processing, and by the purpose of this discipline, may be given less priority if time constraints are present.
+* The first step was to try different image filtering techniques to remove noise. After applying several techniques, some were discarded (Laplacian, GaussianLaplacian, Prewitt, Sobel), some had visual differences (FilterInFrequencyDomain) and some had no significant visual difference (Gaussian, Maximum, Minimum, Percentile, Rank, Uniform). The discarded filters were discarded due to the resulting image having even more noise than the original image.
+* The second step was to apply image enhancement techniques to try improving the perception of events of interest. Two techniques were applied, a logarithmic function and a histogram equalisation. Both were applied to the original image without filtering and to the filtered images.
+The logarthmic function was not adequate to enhance the images, and has increased the saturation beyond that of the original image for all inputs images (original and filtered).
+The histogram equalisation on the other hand, has improved the contrast of the image, with different levels depending on wheter the image was already filtered or not.
+* The final step was to evaluate if the images have been improved and if relevant data has been lost. The evalutaion was made visually, by verifing if the already known points of interest, described in the tags, are possible to identify. Ideally, the spectrograms would be reverted back to audio format, heard and compared with the original audios. However, there was not enough time to address this implementation.
 
-## Intial code
+### Results
 
-Some initial analyses were made applying several filters provided by the **scipy.ndimage** library to the image *LEEC02__0__20161129_054600_ma.png* in the **filtering.py** script. These analyses showed no significant visual  improvement, when applying those filters to the image. The next steps, regarding filtering, will be testing some low-pass, high-pass, bandpass and band-stop filters.
+By analysing the results, some conclusions were drawn.
+* First, not all filters are suited to this problem. Some even result in loss of most of the relevant information available.
+* Second, enhancing the image by applying a logarithmic funtion proved futile, as it increased the saturation of the image and made it almost completely white.
+* Third, the histogram equalisation shows pomise in enhancing the images. Although filtering the image first does not appear to have improved the overall result of the equalisation when compared with applying the equalisation to the original unfiltered image.
+* Fourth, these analyses were limited to grayscale images, there results could have been different if the images were generated as coloured images.
